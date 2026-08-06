@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = 'dockerhub-creds'
-        DOCKER_IMAGE          = 'sanusheetal1-blip/trend-app'
+        DOCKER_IMAGE          = 'sheetalsanu/trend-app'
         EKS_CLUSTER_NAME      = 'trend-app-cluster'
         AWS_REGION            = 'ap-south-1'
     }
