@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = 'dockerhub-credentials'
+        DOCKERHUB_CREDENTIALS = 'dockerhub-creds'
         DOCKER_IMAGE          = 'sanusheetal1-blip/trend-app'
         EKS_CLUSTER_NAME      = 'trend-app-cluster'
         AWS_REGION            = 'ap-south-1'
